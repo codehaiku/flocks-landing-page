@@ -44,17 +44,17 @@
                 'demo-2' => array(
                         'title' => 'Modern',
                         'link' => 'http://flocks.dunhakdis.com/modern',
-                        'preview' => 'images/demo2.jpg'
+                        'preview' => 'images/demo3.jpg'
                     ),
                 'demo-3' => array(
                         'title' => 'Modern Minimalist',
                         'link' => 'http://flocks.dunhakdis.com/modern-minimalist',
-                        'preview' => 'images/demo3.jpg'
+                        'preview' => 'images/demo4.jpg'
                     ),
                 'demo-4' => array(
                         'title' => 'Classic Minimal',
                         'link' => 'http://flocks.dunhakdis.com/classic-minimal',
-                        'preview' => 'images/demo4.jpg'
+                        'preview' => 'images/demo2.jpg'
                     ),
             );
         ?>
