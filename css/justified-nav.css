@@ -1,0 +1,219 @@
+body, .body {
+  font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+h1, h2, h3, h4, h5, h6, .btn {
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #58b4cc;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    background: #0f1010;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+    background-image: url(http://flocks.dunhakdis.com/modern-minimalist/wp-content/uploads/sites/3/2017/01/banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7rem 2rem;
+}
+
+.main-btn {
+    border-radius: 50px;
+    background: white;
+    color: #060303;
+    border: 0 none;
+    margin-top: 20px;
+}
+.headline {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+#logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.featurette {
+   text-align: center;
+   position: relative;
+}
+
+.featurette-details {
+    border: 1px solid #eee;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 7px 25px -15px #6b6868;
+    overflow: hidden;
+}
+
+#demo-section {
+  padding: 5rem 0 2rem;
+}
+.featurette-title {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 15px;
+}
+
+.featurette-title,
+.featurette-link {
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  opacity: 0;
+}
+
+.featurette-link a.btn{
+      border-radius: 25px;
+    background: #222222;
+    border: 0 none;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.featurette-link a.btn:hover{
+  background: #0e0e0e;
+}
+
+.featurette-details:hover .featurette-title {
+  transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  opacity: 1;
+}
+
+.featurette-details:hover  .featurette-link {
+  transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  opacity: 1;
+}
+
+.featurette-title {
+  transform: translateY(-55px);
+  -moz-transform: translateY(-55px);
+  -webkit-transform: translateY(-55px);
+}
+
+
+.featurette-link {
+  transform: translateY(70px);
+  -moz-transform: translateY(70px);
+  -webkit-transform: translateY(70px);
+}
+
+.featurette-details:before {
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  background: transparent;
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.85;
+}
+.featurette-details:hover:before {
+  background: #444;
+}
+
+.featurette img {
+}
+
+.featurette-details > .table {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.featurette img {
+  max-width: 100%;
+}
+.jumbotron .btn {
+  padding: 25px 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.jumbotron .btn:hover {
+  background: #22b5ce;
+}
+
+.navbar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7),to(#eee));
+  background-image: -webkit-linear-gradient(top, #f7f7f7 0%,#eee 100%);
+  background-image: -o-linear-gradient(top, #f7f7f7 0%,#eee 100%);
+  background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+}
+
+.lead {
+  margin: 1.5rem 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
