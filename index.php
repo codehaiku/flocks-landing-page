@@ -25,7 +25,10 @@
         	<h1 class="sr-only">Marketing stuff!</h1>
         	<img id="logo" src="http://flocks.dunhakdis.com/modern/wp-content/themes/flockswp/logo-alternative.svg" alt="Marketing Stuff!" />
 	        <h2 class="lead body">Perfect for any Social Media and Community Websites</h2>
-	        <p><a class="btn btn-lg btn-success main-btn" href="#" role="button">Get FLOCKS - $64.00</a></p>
+            <?php 
+                $tf_link = 'https://themeforest.net/cart/configure_before_adding/{ITEM_ID_HERE}?license=regular&size=source&support=bundle_12month&ref=dunhakdis'; 
+            ?>
+	        <p><a title="You will be redirected to Envato Market" class="btn btn-lg btn-success main-btn" href="<?php echo $tf_link; ?>" role="button">Get FLOCKS - $64.00</a></p>
         </div>
       </div>
       <div id="demo-section">
