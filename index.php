@@ -28,12 +28,29 @@
             <?php 
                 $item_id = '19379198';
                 $tf_link = 'https://themeforest.net/cart/configure_before_adding/'.(int)$item_id.'?license=regular&size=source&support=bundle_6month&ref=dunhakdis';
+                $title = "You will be redirected to Envato Market";
             ?>
-	        <p><a title="You will be redirected to Envato Market" class="btn btn-lg btn-success main-btn" href="<?php echo $tf_link; ?>" role="button">Get FLOCKS - $64.00</a></p>
+	        <p>
+            <a target="__blank" title="<?php echo $title; ?>" 
+            class="btn btn-lg btn-success main-btn" 
+            href="<?php echo $tf_link; ?>" role="button">
+              Get FLOCKS - $64.00
+            </a>
+          </p>
         </div>
       </div>
       <div id="demo-section">
       <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <h3 id="demo-selection-title">Select a demo below to get started</h3>
+            <p id="demo-selection-description">
+We prepared four starter demos for you to navigate and learn more about Flocks features. You can easily import each of these demos on your website in one click. More demos are coming soon.
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
       	<div class="row">
         <?php 
         $demos = array(
