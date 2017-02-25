@@ -17,6 +17,26 @@ h1, h2, h3, h4, h5, h6, .btn {
   color: #58b4cc;
 }
 
+#demo-selection-title,
+#demo-selection-description {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 520px;
+}
+
+#demo-selection-description {
+    margin-bottom: 35px;
+    margin-top: 15px;
+    color: #757575;
+    font-size: 14px;
+}
+
+#demo-selection-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #424242;
+}
 /* Main marketing message and sign up button */
 .jumbotron {
     text-align: center;
