@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Flocks | Social networking ready WordPress theme capable of handling any niche or purpose</title>
+    <title>Flocks | Social Networking ready BuddyPress theme capable of handling any niche or purpose</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:600|Source+Sans+Pro" rel="stylesheet">
@@ -22,11 +22,12 @@
   <body>
       <div class="jumbotron">
         <div class="container">
-        	<h1 class="sr-only">Marketing stuff!</h1>
-        	<img id="logo" src="http://flocks.dunhakdis.com/modern/wp-content/themes/flockswp/logo-alternative.svg" alt="Marketing Stuff!" />
+        	<h1 class="sr-only">Flocks Premium BuddyPress Theme</h1>
+        	<img id="logo" src="http://flocks.dunhakdis.com/modern/wp-content/themes/flockswp/logo-alternative.svg" alt="Flocks Premium BuddyPress Theme!" />
 	        <h2 class="lead body">Perfect for any Social Media and Community Websites</h2>
             <?php 
-                $tf_link = 'https://themeforest.net/cart/configure_before_adding/{ITEM_ID_HERE}?license=regular&size=source&support=bundle_12month&ref=dunhakdis'; 
+                $item_id = '19379198';
+                $tf_link = 'https://themeforest.net/cart/configure_before_adding/'.(int)$item_id.'?license=regular&size=source&support=bundle_6month&ref=dunhakdis';
             ?>
 	        <p><a title="You will be redirected to Envato Market" class="btn btn-lg btn-success main-btn" href="<?php echo $tf_link; ?>" role="button">Get FLOCKS - $64.00</a></p>
         </div>
@@ -100,5 +101,15 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Google Analytics Tracking Code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-43440280-4', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
