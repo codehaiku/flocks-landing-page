@@ -74,6 +74,26 @@ We prepared four starter demos for you to navigate and learn more about Flocks f
                         'link' => 'http://flocks.dunhakdis.com/classic-minimal',
                         'preview' => 'images/demo2.jpg'
                     ),
+                'demo-5' => array(
+                        'title' => 'GeoDirectory <br/>Classic',
+                        'link' => 'http://flocks.dunhakdis.com/geo-directory',
+                        'preview' => 'https://s3.amazonaws.com/image-turbo/flocks-geodirectory-demo/GeoDirectory-Classic.png'
+                    ),
+                'demo-6' => array(
+                        'title' => 'GeoDirectory <br/>Modern',
+                        'link' => 'http://flocks.dunhakdis.com/geo-directory-modern',
+                        'preview' => 'https://s3.amazonaws.com/image-turbo/flocks-geodirectory-demo/GeoDirectory-Modern.png'
+                    ),
+                 'demo-7' => array(
+                        'title' => 'GeoDirectory <br/>Modern Minimal',
+                        'link' => 'http://flocks.dunhakdis.com/geo-directory-modern-minimalist/',
+                        'preview' => 'https://s3.amazonaws.com/image-turbo/flocks-geodirectory-demo/GeoDirectory-mod-minimal.png'
+                    ),
+                 'demo-8' => array(
+                        'title' => 'GeoDirectory <br/>Classic Minimal',
+                        'link' => 'http://flocks.dunhakdis.com/geo-directory-classic-minimal/',
+                        'preview' => 'https://s3.amazonaws.com/image-turbo/flocks-geodirectory-demo/GeoDirectory-classic-m.png'
+                    ),
             );
         ?>
         <?php foreach ( $demos as $demo ) { ?>
@@ -87,7 +107,7 @@ We prepared four starter demos for you to navigate and learn more about Flocks f
                 <div class="featurette-details">
                     <div class="table">
                         <div class="table-cell vertical-align-middle">
-                            <h2 class="featurette-title"><?php echo $demo['title']; ?></h2>
+                            <h2 class="featurette-title" style="line-height: 1.3"><?php echo $demo['title']; ?></h2>
                             <p class="featurette-link">
                                 <a class="btn btn-primary" href="<?php echo $demo['link']; ?>" role="button">
                                     See Demo
